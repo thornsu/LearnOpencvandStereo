@@ -1,0 +1,6 @@
+add_library( rgbstereo rgbstereo.cpp
+    
+)
+
+target_link_libraries( rgbstereo ${OpenCV_LIBS}
+)
